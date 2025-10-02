@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logo from "../assets/sf-white-logo.svg";
 import FAQ from "@/Components/FAQ";
+import Sponsor from "@/Components/Sponsor";
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -16,7 +17,7 @@ export default function Home() {
               draggable={false}
             />
           </div>
-          <div className="text-black py-2 pl-5 pr-5 rounded-md cursor-pointer bg-white hover:opacity-50  transition-colors">
+          <div className="text-black py-2 pl-5 pr-5 rounded-md font-bold cursor-pointer bg-white hover:opacity-50  transition-colors">
             Apply
           </div>
         </div>
@@ -35,85 +36,53 @@ export default function Home() {
       <div className="flex justify-center">
         <div className="w-full max-w-[50rem] px-6">
           <div className="mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Lorem Ipsum Dolor Sit Amet
+            <h2 className="text-2xl font-bold  mb-6">
+              What is Telos House SF?
             </h2>
 
             <p className="text-lg mb-6">
-              Consectetur adipiscing elit sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua ut enim ad minim veniam quis nostrud
-              exercitation.
+              Telos House San Francisco is the newest chapter of <a href="https://www.teloshouse.com/" className="underline font-bold">Telos</a>, designed
+              as a hacker house and creative hub at the heart of innovation.
+              While Telos House builds ecosystems across disciplines, Telos SF
+              focuses on exceptional tech talent and helping individuals reach
+              their purpose. By combining collaborative workspaces and access to
+              resources, we provide an environment where individuals can thrive
+              and build tomorrow’s world.
             </p>
 
-            <p className="text-lg mb-6">
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident sunt in culpa qui officia deserunt mollit anim — sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-
-            <p className="text-lg mb-6">
-              Ut enim ad minim veniam quis nostrud exercitation ullamco laboris.
-              Nisi ut aliquip ex ea commodo consequat duis aute irure dolor in
-              reprehenderit in voluptate velit esse.
-            </p>
-
-            <p className="text-lg mb-6">
-              Cillum dolore eu fugiat nulla pariatur: excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </p>
-
-            <p className="text-lg ">
-              Sed ut perspiciatis unde omnis iste natus error. Sit voluptatem
-              accusantium doloremque laudantium totam rem aperiam. Eaque ipsa
-              quae ab illo inventore veritatis — et quasi architecto beatae
-              vitae dicta sunt, explicabo nemo enim ipsam.
+            <p className="text-lg mb-2">
+              At Telos SF, we are a community of hackers and innovators living
+              and building together an ecosystem where new technologies are
+              born. As an offshoot of Telos, we carry forward the same mission
+              of empowering talent and accelerating chang
             </p>
           </div>
 
           <div className="mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Voluptatem Quia Voluptas Sit
-            </h2>
-
-            <p className="text-lg  mb-6">
-              Aspernatur aut odit aut fugit sed quia:
-            </p>
+            <h2 className="text-2xl font-bold mb-6">What to expect?</h2>
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
-                <span className="w-2 h-2 bg-gray-600 rounded-full mt-3 mr-4 flex-shrink-0"></span>
-                <span className="text-lg ">
-                  Consequuntur magni dolores eos qui ratione
-                </span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 mr-4 flex-shrink-0"></span>
+                <span className="text-lg ">3-Month Cohort Based Program</span>
               </li>
               <li className="flex items-start">
-                <span className="w-2 h-2 bg-gray-600 rounded-full mt-3 mr-4 flex-shrink-0"></span>
-                <span className="text-lg ">
-                  Voluptatem sequi nesciunt 50–130% neque porro
-                </span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 mr-4 flex-shrink-0"></span>
+                <span className="text-lg ">Late-Night Hack Sessions & Events</span>
               </li>
               <li className="flex items-start">
-                <span className="w-2 h-2 bg-gray-600 rounded-full mt-3 mr-4 flex-shrink-0"></span>
-                <span className="text-lg ">
-                  Quisquam est qui dolorem 7 ipsum
-                </span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 mr-4 flex-shrink-0"></span>
+                <span className="text-lg ">Investor Pitch Days</span>
               </li>
               <li className="flex items-start">
-                <span className="w-2 h-2 bg-gray-600 rounded-full mt-3 mr-4 flex-shrink-0"></span>
-                <span className="text-lg ">
-                  Dolor sit amet consectetur 35k+ adipiscing elit
-                </span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 mr-4 flex-shrink-0"></span>
+                <span className="text-lg ">Weekend Pitch Jams</span>
               </li>
             </ul>
           </div>
 
           <div className="mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Sed Quia Non Numquam
-            </h2>
+            <h2 className="text-2xl font-bold mb-6">Why We&#39;re Doing This</h2>
 
             <p className="text-lg">
               Eius modi tempora incidunt ut labore et dolore magnam aliquam
@@ -125,7 +94,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <Sponsor />
       <div className="bg-gray-50">
         <FAQ />
       </div>
