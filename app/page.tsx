@@ -85,11 +85,7 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-6">Why We&#39;re Doing This</h2>
 
             <p className="text-lg">
-              Eius modi tempora incidunt ut labore et dolore magnam aliquam
-              quaerat voluptatem. Ut enim ad minima veniam quis nostrum
-              exercitationem ullam corporis suscipit laboriosam. Nisi ut aliquid
-              ex ea commodi consequatur — quis autem vel eum iure reprehenderit
-              qui in ea voluptate velit esse quam nihil molestiae.
+              We built Telos SF because we know what it’s like to be on the outside looking in. Many of us are immigrants, self-taught, or people who’ve faced real obstacles from crime and systemic barriers to just not having access to the right spaces. We wanted to create the place we wish we had a home where builders from anywhere in the world can live, learn, and create together. At the core, it’s about giving talented people a chance no matter their background and the chance to build, connect, and thrive.
             </p>
           </div>
         </div>
